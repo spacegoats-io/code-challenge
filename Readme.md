@@ -28,8 +28,6 @@ We expect that you are done within one to two weeks, but if you need more time f
 
 💄 We want to see how you organise data in the frontend.
 
-✨ We want to see how you organise data in the frontend.
-
 🔧 We want to see if you know what's necessary in a modern, IO focused backend with an SQL database.
 
 🤙 It's okay when you don't want to implement all company fields in the frontend. Feel free to reduce them to only a few. We are curious to see how you approach this.
