@@ -6,7 +6,7 @@ jest.mock('cls-hooked', () => ({
   }),
 }))
 
-describe('logRequests middleware', () => {
+xdescribe('logRequests middleware', () => {
   it('should call a logger', () => {
     const nextSpy = jest.fn()
     const logSpy = { trace: jest.fn() }

@@ -5,7 +5,7 @@ import apierrorMiddleware from './../apierror'
 jest.mock('../../logger')
 
 let app
-describe('APIError', () => {
+xdescribe('APIError', () => {
   beforeAll(() => {
     app = require('../../config/express').default
     app.get('/test-route', (req, res, next) => {
@@ -22,7 +22,7 @@ describe('APIError', () => {
   })
 })
 
-describe('APIError Middleware', () => {
+xdescribe('APIError Middleware', () => {
   it('should run', async (done) => {
     const response = await request(app).get('/test-route')
 
